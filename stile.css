@@ -1,0 +1,70 @@
+* {
+    font-family: fantasy;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Kalam', cursive;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Ysabeau SC', sans-serif;
+
+}
+
+/* selector de tipo:(elemento o etiqueta )*/
+body {
+    background-color: rgb(110, 244, 244);
+}
+p {
+    background-color: rgb(193, 84, 207);
+
+}
+
+/* selector de clase */
+.parrafo_web {
+    background-color: rgb(230, 211, 41);
+}
+
+/* selector ID */
+
+#primero_parrafo {
+    text-align: center;
+    background-color: rgb(35, 169, 213);
+}
+
+header a[href] {
+    border: 10px double #7e7eca;
+}
+
+h3 {
+    text-align: center;
+    color: blueviolet;
+}
+
+a [href="https://aratiendas.com/blog/hogar/10-consejos-para-el-cuidado-y-bienestar-de-tu-mascota/"] {
+    border: 10px double #275b6f;
+
+}
+
+img {
+    border-radius: 100px;
+}
+
+
+/* modelo de caja */
+#caja {
+    /* ancho de 350 pixeles */
+    width: 350px;
+    /* alto de 150 pixeles */
+    height: 150px;
+    /* margen de 10 pixeles */
+    margin: 10px;
+    /* relleno entre el borde y el contenido de */
+    padding: 25px;
+    /* borde de 5 pixeles estilo solido color negro */
+    border: 5px solid black;
+
+}
+
+form div {
+    padding: 12px;
+    text-align: center;
+}
